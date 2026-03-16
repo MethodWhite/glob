@@ -1,8 +1,8 @@
 {
-  "tsconfig": "./.tshy/esm.json",
-  "entryPoints": ["./src/**/*.+(ts|tsx|mts|cts)"],
+  "entryPoints": ["./src/index.ts"],
+  "exclude": ["test/**"],
   "navigationLinks": {
-    "GitHub": "https://github.com/isaacs/node-glob",
+    "GitHub": "https://github.com/MethodWhite/glob",
     "isaacs projects": "https://isaacs.github.io/"
   }
 }
