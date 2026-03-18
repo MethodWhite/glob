@@ -12,7 +12,6 @@ updates:
       prefix: "[deps]"
     labels:
       - "dependencies"
-      - "security"
     versioning-strategy: increase
     ignore:
       - dependency-name: "*"
@@ -27,4 +26,3 @@ updates:
       prefix: "[ci]"
     labels:
       - "dependencies"
-      - "github-actions"
